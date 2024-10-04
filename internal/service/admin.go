@@ -34,6 +34,7 @@ func GetFeedbacks_() ([]map[string]interface{}, error) {
 	return d.GetFeedbacks_(ctx)
 }
 
+// 删除用户
 func DeleteUser(userID int) {
 	d.DeleteUser(ctx, userID)
 }
